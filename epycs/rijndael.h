@@ -1,9 +1,8 @@
-#include <Python.h> 
 #ifndef __RIJNDAEL_H_
 #define __RIJNDAEL_H_
 
 #ifndef u32
-	#define u32		PY_UINT32_T
+	#define u32		unsigned int
 #endif
 
 void aes_256_setkey (const void * const key, u32 * ks);

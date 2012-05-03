@@ -5,7 +5,7 @@
 
 typedef struct {
     PyObject_HEAD
-    PY_UINT32_T ks[60];
+    u32 ks[60];
 } PyAES_context;
 
 
